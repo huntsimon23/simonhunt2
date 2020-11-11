@@ -425,7 +425,7 @@ h5 {
     margin-right: 30px;
 }
 
-#mainNav ul li: last-child {
+#mainNav ul li last-child {
     margin-right: 8px;
 }
 
@@ -704,7 +704,7 @@ h5 {
 
 .aboutme .author-image-2{
 	padding-bottom: 100px;
-	background: url(http://placehold.it/715x1106&text=Author+image) top left no-repeat;
+	background: url(../img/SimonTall.png) top left no-repeat;
 	background-size: 55%;
 	position: relative;
 }
@@ -732,7 +732,7 @@ h5 {
 }
 
 .aboutme .skills{
-	background: url('http://placehold.it/1280x1213&text=Skills+background+image');
+	background: url('../img/codeskillsBKG.png');
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
@@ -841,10 +841,6 @@ h5 {
 }
 
 .pie-chart .percentage{
-	opacity: 0;
-}
-
-.pie-chart:hover .percentage-title{
 	opacity: 0;
 }
 
@@ -1214,6 +1210,10 @@ h5 {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
+}
+
+.wh-high {
+	fill-opacity: unset;
 }
 
 	/*------------------------------------------------------------------
